@@ -53,10 +53,5 @@
      "mode":"REQUIRED",
      "name":"uncalibrated_score",
      "type":"FLOAT"
-  },
-  {
-     "mode":"REQUIRED",
-     "name":"is_primary_score",
-     "type":"BOOLEAN"
   }
 ]
