@@ -8,3 +8,5 @@ do
     echo -n "${h} "
     ssh -q -o ConnectTimeout=10 ${h} "cat /opt/sift/${service}/current/REVISION"
 done |awk '{print $2" "$1}'
+
+#test code
